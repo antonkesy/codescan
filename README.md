@@ -88,7 +88,7 @@ python3 -m core.runner --provider openai
 To scan code using a custom AI server:
 
 ```bash
-codescanai --provider custom --host http://localhost --port 5000 --token your_token --directory path/to/your/code
+codescanai --provider custom --host <http://localhost> --port <5000> --token <your_token> --directory <path/to/your/code>
 ```
 
 ### Supported arguments
