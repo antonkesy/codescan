@@ -18,7 +18,7 @@ DEFAULT_MODELS = {
 }
 
 
-def init_provider(provider, model, host=None, port=None, token=None, endpoint=None):
+def init_provider(provider, model, host=None, port=None, token=None, endpoint=None): # pylint: disable=R0917
     """
     Initializes and returns the appropriate AI client based on the provider.
     """
